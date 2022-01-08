@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf 8">
+        <title> Esta es una pagina prueba de html donde voy a ver 
+            lo que puedo hacer con este lenguaje y practicar un poco </title>
+            <h1>Empezando a usar HTML</h1>
+    </head>
+    <nav>
+        <h1>Navegador</h1>
+        <p aling = center> <font size = "2">Esta parte corresponde a navegador (nav)
+            ancla enlaces de navegación. Como menú o índice.
+            <ol>
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#listas">listas</a></li>
+                <ol type="I">
+                    <li><a href="#ordenadas numericamente">ordenadas numéricamente</a></li>
+<li><a href="#ordenadas alfab">ordenadas alfabeticamente</a></li>
+<li><a href="#desordenadas">listas desordenadas</a></li>
+<li><a href="#listas de definicion">listas de definicion</a></li>
+
+                </ol>
+                <li><a href="#tipos de enlace"enlaces></a></li>
+                <ol type="I">
+                    <li><a href="#interno">enlaces internos</a></li>
+                    <li><a href="#externos">enlaces externos</a></li>
+                    <li><a href="de posicion">enlaces de posicion</a></li>
+                </ol>
+                <li><a href="#marco">marco en linea</a></li>
+                <li><a href="#fuente">tamaño en fuente</a></li>
+            </ol>
+    
+        </font></p>
+    </nav>
+    <body bgcolor="silver" text="purple" alink="fuchsia" vlink="fuchsia">
+<h1 id="inicio">Empezando a usar HTML</h1>
+<img src=https://imgr.search.brave.com/7ePlaNw4ReL4RwUD-nptFbbGw0zOwek4BE1SgDOjvX0/fit/600/517/ce/1/aHR0cDovL29sZWJs/b2dzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxMy8wOC9o/dG1sNS13b3JkcHJl/c3MucG5n alt="Logotipo" width="50%" height="50%">
+<section>
+<h2 id="listas"><strong>Listas</strong></h2>
+<p>En la primera parte del curso aprendemos a usar Listas.
+Hay basicamente dos tipos de listas:<b>ordenadas</b> y <b>desordenadas</b> 
+Las <i>ordenadas</i> pueden diferenciarse en numéricas o alfabéticas.
+</p>
+<article>
+    <h3 id="ordenadas numericamente"><u>Ordenadas numéricamente</u></h3>
+    <p>Son las que se usan por defecto.Si solamente usamos el ol 
+        veremos una lista ordenada numéricamente iniciando en el 1 y que
+        sigue de forma ascendente.
+    </p>
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento3</li>
+    </ol>
+    <p>Si queremos que la lista empiece de un número determinado usamos
+        el star.
+    </p>
+    <ol start = "5">
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ol>
+    <p>Y si queremos que además de empezar de cualquier número, vaya en 
+        orden decreciente usaremos el reversed.
+    </p>
+    <ol reversed start="56">
+        <li>Elemento</li>
+        <li> Elemento</li>
+        <li> Elemento</li>
+    </ol>
+    <p>También podemos usar números romanos.En este caso en forma 
+        ascendente, desde el 10.
+    </p>
+    <ol type="i" start= "10">
+        <li>Elemento</li>
+        <li> Elemento</li>
+        <li> Elemento</li>
+
+    </ol>
+</article>
+<article>
+    <h3 id="ordenadas alfab"><u> Ordenadas alfabéticamente</u></h3> 
+    <p>En este caso indicaremos con la letra a para que nos ordene las 
+        listas en orden alfabético.
+    </p>
+    <ol type="a">
+        <li> Elemento</li>
+        <li> Elemento</li>
+        <li> Elemento</li>
+    </ol>
+    <p> Para empezar de una letra determinada usamos el star, pero en vez 
+        de indicar letra de inicio, indicamos el número de letra en el alfabeto.
+        De igual manera podemos usar el reverse.
+    </p>
+    <ol type="a" reversed start= "5"> 
+<li>Elemento</li>
+<li> Elemento</li>
+<li> Elemento</li>
+    </ol>
+</article>
+<article>
+    <h3 id="desordenadas"><u> Listas desordenadas </u></h3>
+    <p>En las listas desordenadas usamos el ul y tenemos distintos tipos:</p>
+    <h5><b>Por defecto</b></h5>
+    <ul>
+        <li> Elemento</li>
+        <li> Elemento</li>
+        <li> Elemento</li>
+    </ul>
+    <h5><b>Circulo (type circle)</b></h5>
+    <ul type="circle">
+        <li>Elemento</li>
+        <li> Elemento</li>
+        <li> Elemento</li>
+
+    </ul>
+
+    <h5><b>Cuadrado (type squared)</b></h5>
+    <ul type= "squared"> 
+<li> Elemento</li>
+<li> Elemento</li>
+<li> Elemento</li>
+    </ul>
+</article>
+<article>
+    <p>Además de hacer listas simples, podemos hacer listas anidadas.
+        Las <i>listas anidadas</i> que son simplemente hacer una lista dentro de otra.
+    </p>
+<ol type="a" start= "6">
+    <li>Elemento</li>
+    <li> Elemento</li>
+    <ol>
+        <li> Elemento</li>
+        <li> Elemento</li>
+        <ol type="I">
+            <li> Elemento</li>
+            <li> Elemento</li>
+            <li> Elemento</li>
+        </ol>
+        <li> Elemento</li>
+    </ol>
+    <li> Elemento</li>
+</ol>
+     </article>
+     <article>
+         <h3 id="listas de definicion"><u>Listas de definición</u></h3>
+         <p>Este tipo de listas se inician con dl, luego el término a definir
+             con dt y su definición con dd. 
+         </p>
+         <dl> 
+             <dt>Término 1</dt>
+             <dd>Acá haremos la definición del término 1, usando dd.</dd>
+             <dt>Término 2</dt>
+             <dd>Acá definiremos al término 2 y se me dió la gana de meterle otra lista.
+                 <ol type="I">
+                     <li> Elemento</li>
+                     <li> Elemento</li>
+                     <li> Elemento</li>
+                 </ol>
+             </dd>
+         </dl>
+     </article>
+     <article>
+     <h1>Enlaces</h1>
+     <p> Lo siguiente que vemos en el curso son los enlaces, usando básicamente a href.
+     </p>
+     <h5 id="tipos de enlaces">TIPOS DE ENLACES</h5>
+     <ol>
+    <li><dl><dt id="interno">Enlaces internos</dt>
+    <dd>Son los que se dan entre páginas web mismo dominio.
+        <ol type="a">
+            <li>Interno absoluto <a href=http://127.0.0.1:5500/Listas/definicion.html>Definición</a>    </li>
+            <li>Interno relativo <a href = ./Listas/definicion%202.html>Definición</a> </li>
+        </ol>
+    </dd>
+    </dl></li>
+    <li><dl><dt id="externo">Enlaces externos</dt>
+    <dd>Son los que se dan entre dos paginas web de distinto dominio. Ejemplo:
+        <a href="https://3con14.biz/html/enlaces/13-tipos-de-enlaces.html"> Material enlaces</a>
+    </dd>
+</dl>
+</li>
+<li><dl><dt id="de posicion">Enlaces de posición o marcadores</dt>
+<dd>Nos re dirigen a otro lugar concreto.Hay tres tipos.
+    <ol type="a"><li> De un lugar a otro en la misma página.<a href="#ordenadas numericamente">ordenadas numéricamente</a>    </li> 
+    <li>De un lugar a otro de otra página del mismo dominio.<a href="./Listas/definicion%202.html#aca" > ejemplo </a>   </li>
+<li>De un lugar a otro de una página de otro dominio.<a href="https://es.wikipedia.org/wiki/Enlace#footer-info-lastmod">¡Al fondo de la página de wikipedia!</a>    </li></ol>
+</dd></dl></li>     
+    </ol>
+     </article>
+    <article>
+<h1 id="marco"> Marco en línea  </h1>
+<p>Esta herramienta (inframe) define una región dentro del documento donde el navegador muestra un documento separado. Es otro documento dentro del documento </p>
+     <iframe  src=https://www.w3schools.com/html/html_iframe.asp  height="200" width="300" title="iframe">
+    </iframe>
+
+    <p>Lo cual es diferente a una imagen, como se puede ver:</p>
+    <img src=https://imgr.search.brave.com/7ePlaNw4ReL4RwUD-nptFbbGw0zOwek4BE1SgDOjvX0/fit/600/517/ce/1/aHR0cDovL29sZWJs/b2dzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxMy8wOC9o/dG1sNS13b3JkcHJl/c3MucG5n alt="Logotipo" /> 
+<p>La imagen es estática, tanto en iframe como en immagen se usa scr. En la imagen no hay etiqueta de cierre y se usa el alt con el nombre para situaciones donde no se carga la imagen.
+    El src es parecido al href que se usa en los enlaces que hacemos con la etiqueta a.
+</p>
+</article>
+<article>
+    <h1 id="fuente">Tamaño fuente(font size)</h1>
+    <p>Además de lo que ya vimos de resaltado, negrita, cursiva, etc. En html también tenemos 
+        la etiqueta fuente con tres atributos, si bien tenemos tamaño, color y fuente. Actualmente en HTML solo se usa tamaño.
+    </p>
+    <font size="1">es letra muy pequeña</font><br />
+  <font size="2">es letra pequeña</font><br />
+  <font size="3">letra normal</font><br />
+  <font size="4">un poco más grande</font><br />
+  <font size="5">y más</font><br />
+  <font size="6">y más</font><br />
+  <font size="7">y más grande</font>
+</article>
+<aside>
+    <h1 aling = "rigth">Aside</h1>
+    <p align = "rigth">En html 5 tenemos la posibilidad de tener varias partes dentro de la sección.
+        lo anterior fue escrito en article y lo que se está leyendo corresponde a la etiqueta aside.
+    </p>
+</aside>
+</section>
+<footer>
+    <p><font size="1">Este es el pie de página, contiene
+        información de:
+        <ol>
+            <li>autoría</li>
+            <li>información registrada</li>
+            <li>contacto</li>
+            <li>mapa del sitio</li>
+            <li>volver <a href="#inicio">inicio</a></li>
+            <li>documentos relacionados</li>
+        </ol>
+        </font>
+    </p>
+
+</footer>
+    </body>
+</html>

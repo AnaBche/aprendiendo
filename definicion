@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>  <head>
+    <meta charset="utf 8">
+    <title> Esta es una pagina prueba de html donde voy a ver 
+        lo que puedo hacer con este lenguaje y practicar un poco </title>
+</head>
+<body>
+    <h1>Definición</h1>
+    <dl> 
+        <dt>Enlace interno relativo</dt>
+        <dd>Este enlace te dirigió a otro lugar del mismo dominio. 
+En este caso, primero escribí el dominio (cualquier cosa) y con el visual code hice esta página, luego la abrí con open whit live server y copié url.
+Es absoluto porque no puse la url completa en el a href.
+        </dd>
+    </dl>
+</body>
+     </html>
